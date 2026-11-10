@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ bot_name }} · FAQ Chatbot</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="chat" aria-label="Chat with {{ bot_name }}">
+    <header class="chat-head">
+      <div class="avatar" aria-hidden="true">{{ bot_name[0] }}</div>
+      <div>
+        <h1>{{ bot_name }}</h1>
+        <p>BrightCart support assistant · answers from the FAQ</p>
+      </div>
+    </header>
+
+    <!-- Messages are added here by script.js -->
+    <div id="messages" class="messages" role="log" aria-live="polite"></div>
+
+    <form id="chat-form" class="composer" autocomplete="off">
+      <input id="message-input" type="text" maxlength="{{ max_length }}"
+             placeholder="Ask about orders, shipping, returns, payments…" aria-label="Your question" autofocus>
+      <button id="send-btn" type="submit" aria-label="Send">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l16-8-6 16-3-7-7-1z" /></svg>
+      </button>
+    </form>
+  </main>
+
+  <script>
+    // Values the page needs from the server
+    const BOT_NAME = {{ bot_name | tojson }};
+    const STARTER_QUESTIONS = {{ starters | tojson }};
+  </script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

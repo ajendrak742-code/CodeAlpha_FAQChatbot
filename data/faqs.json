@@ -1,0 +1,228 @@
+{
+  "bot_name": "Cartie",
+  "topic": "BrightCart, a fictional online electronics store",
+  "faqs": [
+    {
+      "category": "Orders",
+      "question": "How can I track my order?",
+      "variations": ["Where is my order?", "What is the status of my order?", "How do I check where my package is right now?"],
+      "answer": "Open My Orders in your account and select the order to see live tracking. We also send a tracking link by SMS and email as soon as the order is shipped."
+    },
+    {
+      "category": "Orders",
+      "question": "How do I cancel my order?",
+      "variations": ["I want to cancel an order I placed", "Can I cancel my order after placing it?", "Stop my order, I do not want it anymore"],
+      "answer": "You can cancel any time before the order is shipped: go to My Orders, open the order and choose Cancel. If it has already shipped, refuse the delivery or request a return once it arrives."
+    },
+    {
+      "category": "Orders",
+      "question": "Can I change the delivery address after placing an order?",
+      "variations": ["I entered the wrong address on my order", "How do I update the shipping address for my order?", "Deliver my order to a different address"],
+      "answer": "Yes, as long as the order has not been shipped. Open the order in My Orders and choose Edit Address. After shipping, the address can no longer be changed."
+    },
+    {
+      "category": "Orders",
+      "question": "Can I add or remove items from an order I already placed?",
+      "variations": ["How do I modify the items in my order?", "I want to change the product in my order", "Edit my order to add one more item"],
+      "answer": "Items cannot be edited once an order is placed. Cancel the order before it ships and place a new one with the right items, or place a separate order for anything you want to add."
+    },
+    {
+      "category": "Orders",
+      "question": "I did not receive an order confirmation. What should I do?",
+      "variations": ["I have not got any confirmation email for my order", "Was my order placed successfully?", "No confirmation message after ordering"],
+      "answer": "Confirmations can take up to 15 minutes, so check your spam folder first. If the order appears in My Orders, it is confirmed. If it does not appear and money was deducted, the amount is refunded automatically within 5 to 7 business days."
+    },
+    {
+      "category": "Shipping",
+      "question": "How long does delivery take?",
+      "variations": ["When will my order arrive?", "How many days does shipping take?", "What is the estimated delivery time?"],
+      "answer": "Standard delivery takes 3 to 5 business days. Express delivery takes 1 to 2 business days in metro cities. The exact date is shown at checkout and on the order page."
+    },
+    {
+      "category": "Shipping",
+      "question": "What are the shipping charges?",
+      "variations": ["Is delivery free?", "How much do you charge for shipping?", "What is the delivery fee?"],
+      "answer": "Standard delivery is free on orders above Rs. 499. Below that, a flat fee of Rs. 49 applies. Express delivery costs Rs. 99 per order."
+    },
+    {
+      "category": "Shipping",
+      "question": "Do you ship internationally?",
+      "variations": ["Can you deliver outside India?", "Do you deliver to other countries?", "Is overseas shipping available?"],
+      "answer": "Not at the moment. We currently deliver only within India, to more than 19,000 PIN codes."
+    },
+    {
+      "category": "Shipping",
+      "question": "How do I check if you deliver to my area?",
+      "variations": ["Do you deliver to my PIN code?", "Is delivery available in my city?", "Check delivery availability for my location", "Is my pincode serviceable?"],
+      "answer": "Enter your PIN code on any product page. It shows whether we deliver to your area, along with the expected delivery date."
+    },
+    {
+      "category": "Shipping",
+      "question": "What happens if I am not at home during delivery?",
+      "variations": ["I missed my delivery", "Nobody was available to receive the package", "Will the courier try to deliver again?"],
+      "answer": "The courier makes up to three delivery attempts on consecutive business days. You can also reschedule from the tracking link. After the third attempt the package is returned and you get a full refund."
+    },
+    {
+      "category": "Returns and Refunds",
+      "question": "What is your return policy?",
+      "variations": ["Can I return a product?", "How many days do I have to return an item?", "Is there a return window?"],
+      "answer": "Most products can be returned within 10 days of delivery if they are unused and in the original packaging with all accessories. A few categories are not returnable; this is mentioned on the product page."
+    },
+    {
+      "category": "Returns and Refunds",
+      "question": "How do I return a product?",
+      "variations": ["What is the process to send an item back?", "I want to return my order", "Steps to start a return request"],
+      "answer": "Go to My Orders, open the order and choose Return. Pick a reason and a pickup slot. Our courier collects the product from your address at no charge."
+    },
+    {
+      "category": "Returns and Refunds",
+      "question": "When will I get my refund?",
+      "variations": ["How long does a refund take?", "I have not received my refund yet", "Where is my refund money?"],
+      "answer": "Refunds are started as soon as the returned product passes the quality check, and reach your original payment method in 5 to 7 business days. Cash on Delivery orders are refunded to your bank account or as store credit."
+    },
+    {
+      "category": "Returns and Refunds",
+      "question": "Can I exchange a product instead of returning it?",
+      "variations": ["I want a replacement in a different colour", "How do I exchange an item for another one?", "Swap my product for a different model"],
+      "answer": "Yes. Choose Exchange in My Orders within 10 days of delivery. We deliver the replacement and collect the original product at the same time, subject to stock."
+    },
+    {
+      "category": "Returns and Refunds",
+      "question": "I received a damaged or defective product. What should I do?",
+      "variations": ["My item arrived broken", "The product I got is not working", "I received the wrong item in my package"],
+      "answer": "We are sorry about that. Raise a return request within 48 hours of delivery from My Orders and attach photos of the product and the packaging. We will send a free replacement or refund the full amount."
+    },
+    {
+      "category": "Returns and Refunds",
+      "question": "Which products cannot be returned?",
+      "variations": ["What items are non-returnable?", "Are earphones eligible for return?", "List of products not covered by the return policy"],
+      "answer": "For hygiene and licensing reasons, in-ear earphones, opened software, gift cards and screen protectors cannot be returned unless they arrive damaged or defective."
+    },
+    {
+      "category": "Payments",
+      "question": "What payment methods do you accept?",
+      "variations": ["How can I pay for my order?", "Do you accept UPI and credit cards?", "Which payment options are available?"],
+      "answer": "We accept UPI, credit and debit cards, net banking, popular wallets, EMI and Cash on Delivery."
+    },
+    {
+      "category": "Payments",
+      "question": "Is Cash on Delivery available?",
+      "variations": ["Can I pay in cash when the order arrives?", "Do you have COD?", "Pay on delivery option"],
+      "answer": "Yes, Cash on Delivery is available on orders up to Rs. 20,000 in most PIN codes. A handling fee of Rs. 29 applies to COD orders."
+    },
+    {
+      "category": "Payments",
+      "question": "My payment failed but money was deducted. What now?",
+      "variations": ["Amount debited but order not placed", "Transaction failed and my money got cut", "I was charged twice for one order"],
+      "answer": "Do not worry. Any amount deducted for a failed or duplicate payment is reversed automatically to the same account within 5 to 7 business days. If it takes longer, share the transaction ID with our support team."
+    },
+    {
+      "category": "Payments",
+      "question": "Do you offer EMI?",
+      "variations": ["Can I pay in monthly instalments?", "Is no-cost EMI available?", "Buy now and pay later in installments"],
+      "answer": "Yes. EMI is available on orders above Rs. 3,000 with most major credit cards, and no-cost EMI is offered on selected products. Available plans are shown on the payment page."
+    },
+    {
+      "category": "Payments",
+      "question": "How do I get an invoice for my order?",
+      "variations": ["Where can I download my bill?", "I need a GST invoice", "Send me the receipt for my purchase"],
+      "answer": "The invoice is emailed when the order is delivered and can also be downloaded from the order page in My Orders. For a GST invoice, add your GSTIN at checkout before you place the order."
+    },
+    {
+      "category": "Payments",
+      "question": "Is it safe to pay online on your website?",
+      "variations": ["Are my card details secure?", "Do you store my credit card information?", "Is online payment secure here?"],
+      "answer": "Yes. Payments are processed over an encrypted connection by certified payment gateways. We never store your full card number or CVV."
+    },
+    {
+      "category": "Account",
+      "question": "How do I create an account?",
+      "variations": ["How can I sign up?", "Register as a new user", "I am new here, how do I make a profile?"],
+      "answer": "Select Sign Up at the top of the page, enter your mobile number and verify it with the one-time password. Add your name and email and your account is ready."
+    },
+    {
+      "category": "Account",
+      "question": "I forgot my password. How do I reset it?",
+      "variations": ["I cannot log in to my account", "How do I change my password?", "Reset my login password"],
+      "answer": "On the login page choose Forgot Password, enter your registered email or mobile number and follow the link or one-time password we send you to set a new password."
+    },
+    {
+      "category": "Account",
+      "question": "How do I update my email address or phone number?",
+      "variations": ["Change the mobile number on my account", "Edit my profile details", "I have a new email, how do I update it?"],
+      "answer": "Go to My Account, open Profile and choose Edit. Changes to email or mobile number are confirmed with a one-time password sent to the new contact."
+    },
+    {
+      "category": "Account",
+      "question": "How do I delete my account?",
+      "variations": ["I want to close my account permanently", "Remove my account and personal data", "Deactivate my profile"],
+      "answer": "Go to My Account, open Settings and choose Delete Account. The account and personal data are removed within 30 days, provided there are no open orders or pending refunds."
+    },
+    {
+      "category": "Products and Warranty",
+      "question": "Do your products come with a warranty?",
+      "variations": ["What is the warranty period?", "How do I claim warranty for my product?", "Is my laptop covered under guarantee?"],
+      "answer": "Yes. Every product carries the manufacturer's warranty, usually 1 year for electronics; the exact period is listed on the product page. To claim it, visit the brand's authorised service centre with your invoice."
+    },
+    {
+      "category": "Products and Warranty",
+      "question": "Are the products genuine?",
+      "variations": ["Do you sell original products?", "Are these items authentic or fake?", "Is this a brand new sealed product?"],
+      "answer": "Yes. All products are 100% genuine, brand new and sourced directly from brands or their authorised distributors."
+    },
+    {
+      "category": "Products and Warranty",
+      "question": "The product I want is out of stock. When will it be available?",
+      "variations": ["Notify me when an item is back in stock", "This product shows currently unavailable", "When will you restock this item?"],
+      "answer": "Select Notify Me on the product page and we will email you the moment it is back in stock. Most popular products are restocked within 1 to 2 weeks."
+    },
+    {
+      "category": "Products and Warranty",
+      "question": "Do you provide installation for large appliances?",
+      "variations": ["Who will install my TV?", "Is installation free for the washing machine?", "How do I book a demo and installation?"],
+      "answer": "Yes. Installation and demo for televisions and large appliances are arranged by the brand within 48 hours of delivery. Where the product page says Free Installation, there is no charge."
+    },
+    {
+      "category": "Offers",
+      "question": "How do I apply a coupon code?",
+      "variations": ["Where do I enter my promo code?", "How can I use a discount voucher?", "Redeem a coupon at checkout"],
+      "answer": "Enter the code in the Apply Coupon box on the cart page and select Apply. The discount is shown in the order summary before you pay. Only one coupon can be used per order."
+    },
+    {
+      "category": "Offers",
+      "question": "Why is my coupon code not working?",
+      "variations": ["Promo code shows invalid", "My discount code was not applied", "Coupon says it has expired"],
+      "answer": "A coupon can fail if it has expired, the cart is below the minimum order value, the products are excluded from the offer or the code was already used. The terms are listed under My Coupons."
+    },
+    {
+      "category": "Offers",
+      "question": "Do you sell gift cards?",
+      "variations": ["How do I redeem a gift card?", "Can I buy a gift voucher for a friend?", "Check my gift card balance"],
+      "answer": "Yes. Gift cards from Rs. 500 to Rs. 10,000 are delivered instantly by email and are valid for one year. To redeem, add the card under My Account, Gift Cards, and the balance is applied at checkout."
+    },
+    {
+      "category": "Offers",
+      "question": "How do reward points work?",
+      "variations": ["How do I earn loyalty points?", "Can I use my reward points to pay?", "What are BrightCoins?"],
+      "answer": "You earn 1 BrightCoin for every Rs. 100 spent, credited after the return window closes. Each coin is worth Rs. 1 and can be used to pay for up to 20% of a future order."
+    },
+    {
+      "category": "Support",
+      "question": "How can I contact customer support?",
+      "variations": ["What is your customer care number?", "I want to talk to a human agent", "How do I reach your helpline?"],
+      "answer": "Call us on 1800-000-1234 (toll free), email care@brightcart.example or use live chat on the Help page. Keep your order ID ready so we can help faster."
+    },
+    {
+      "category": "Support",
+      "question": "What are your customer support hours?",
+      "variations": ["When is customer care open?", "Is support available on Sundays?", "What time can I call you?"],
+      "answer": "Phone and chat support are open every day from 8 AM to 10 PM, including Sundays and public holidays. Emails are answered within 24 hours."
+    },
+    {
+      "category": "Support",
+      "question": "How do I file a complaint?",
+      "variations": ["I am not happy with the service", "My issue was not resolved by support", "Escalate my problem to a manager"],
+      "answer": "We are sorry for the trouble. Raise a complaint from the Help page with your order ID; you get a ticket number right away and a reply within 24 hours. Unresolved tickets can be escalated to grievance@brightcart.example."
+    }
+  ]
+}
